@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">lab2</string>
+    <string name="green_button_text">Зеленый</string>
+    <string name="red_button_text">Красный</string>
+    <string name="blue_button_text">Синий</string>
+    <string name="editText_text">Введите текст</string>
+    <string name="colorChanged">Цвет поменялся!</string>
+    <string name="about">О программе</string>
+    <string name="author">Об авторе</string>
+    <string name="author_content">Я Пантелеев Глеб Викторович</string>
+    <string name="exit">Выйти</string>
+    <string name="about_content">Это 3 лаба по андроиду по ССП</string>
+    <string name="return_to_main">Вернуться</string>
+    <string name="secret">Секретный пункт</string>
+    <string name="secret_item">Джага-джага</string>
+</resources>

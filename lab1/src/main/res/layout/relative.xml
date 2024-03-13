@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/relButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/relTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/relCheckBox"
+        android:layout_below="@id/relButton"
+        android:layout_toStartOf="@id/relCheckBox"
+        android:layout_toEndOf="@id/relButton"
+        android:gravity="center"
+        android:text="TextView" />
+
+    <CheckBox
+        android:id="@+id/relCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="CheckBox" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/relChip"
+        android:layout_above="@id/relSwitch"
+        android:layout_below="@id/relCheckBox"
+        android:layout_toStartOf="@id/relSwitch"
+        android:layout_toEndOf="@id/relCheckBox" />
+
+    <Switch
+        android:id="@+id/relSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="Switch" />
+
+</RelativeLayout>
